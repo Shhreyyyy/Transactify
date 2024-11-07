@@ -61,7 +61,6 @@ Transactify/
 │   │   └── AccountForm.js  # Form for checking balance and transferring funds
 │   │
 │   ├── pages/              # Main pages for different views
-│   │   ├── Home.js         # Homepage with an overview of the app
 │   │   ├── Signup.js       # Sign-up page for new users
 │   │   ├── Signin.js       # Sign-in page for returning users
 │   │   ├── Dashboard.js    # User dashboard for managing accounts
