@@ -21,6 +21,19 @@ Transactify is a comprehensive web application that combines a powerful backend 
 - **Frontend**:
   - **React** - Component-based library for building the user interface
   - **Tailwind CSS** - Utility-first CSS framework for responsive, custom styling
+ 
+ ## API Endpoints
+
+### User Endpoints
+- **Sign Up**: `POST /api/v1/user/signup`
+- **Sign In**: `POST /api/v1/user/signin`
+- **Update User**: `PUT /api/v1/user/`
+- **Bulk User Search**: `GET /api/v1/user/bulk`
+- **Get Username by ID**: `GET /api/v1/user/getUsername`
+
+### Account Endpoints
+- **Check Balance**: `GET /api/v1/account/balance`
+- **Transfer Funds**: `POST /api/v1/account/transfer`
 
 ## Project Structure
 
@@ -37,12 +50,25 @@ Transactify/
 │   │   └── middleware.js          # Authentication middleware
 │   └── config.js                  # Configuration for environment variables (e.g., JWT_SECRET)
 │
-└── frontend/                      # React frontend code
-    ├── src/
-    │   ├── App.js                 # Main React app component
-    │   ├── index.js               # React DOM rendering entry point
-    │   ├── components/            # Reusable React components (e.g., Navbar, BalanceDisplay, TransferForm)
-    │   ├── pages/                 # Pages such as Signup, Signin, Dashboard
-    │   ├── styles/                # Custom styles or Tailwind configurations
-    │   └── utils/                 # Utility functions, such as API calls
-    └── tailwind.config.js         # Tailwind CSS configuration
+├── Frontend/
+│
+├── public/                 # Static files (e.g., index.html)
+│
+├── src/                    # Source files
+│   ├── components/         # Reusable UI components
+│   │   ├── Navbar.js       # Navigation bar for app routing
+│   │   ├── UserForm.js     # Form for sign-up and sign-in
+│   │   └── AccountForm.js  # Form for checking balance and transferring funds
+│   │
+│   ├── pages/              # Main pages for different views
+│   │   ├── Home.js         # Homepage with an overview of the app
+│   │   ├── Signup.js       # Sign-up page for new users
+│   │   ├── Signin.js       # Sign-in page for returning users
+│   │   ├── Dashboard.js    # User dashboard for managing accounts
+│   │   └── Transfer.js     # Page for transferring funds
+│   │
+│   ├── App.js              # Main application file with routing setup
+│   ├── index.js            # Entry point of the React application
+│   └── styles.css          # Custom styling (includes Tailwind CSS integration)
+│
+└── tailwind.config.js      # Tailwind CSS configuration file
