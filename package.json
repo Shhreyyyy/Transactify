@@ -1,0 +1,27 @@
+{
+  "name": "transactify",
+  "version": "1.0.0",
+  "description": "Transactify is a comprehensive web application that combines a powerful backend API with a modern React frontend. Designed for managing user accounts, balances, and transfers, Transactify provides secure and efficient functionality for financial applications. Built with Node.js, MongoDB, React, and Tailwind CSS, it offers a streamlined, responsive user interface and a robust backend solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shhreyyyy/Transactify.git"
+  },
+  "author": "Shrey Tarsaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shhreyyyy/Transactify/issues"
+  },
+  "homepage": "https://github.com/Shhreyyyy/Transactify#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "zod": "^3.23.8"
+  }
+}
