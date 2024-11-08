@@ -1,5 +1,7 @@
 # Transactify
 
+**Author**: Shrey Tarsaria
+
 Transactify is a comprehensive web application that combines a powerful backend API with a modern React frontend. Designed for managing user accounts, balances, and transfers, Transactify provides secure and efficient functionality for financial applications. Built with Node.js, MongoDB, React, and Tailwind CSS, it offers a streamlined, responsive user interface and a robust backend solution.
 
 ## Features
