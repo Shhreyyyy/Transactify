@@ -50,7 +50,7 @@ Transactify/
 │   │   ├── user.js                # User-related endpoints
 │   │   ├── account.js             # Account-related endpoints
 │   │   └── middleware.js          # Authentication middleware
-│   └── config.js                  # Configuration for environment variables (e.g., JWT_SECRET)
+│   └── config.js                  # Configuration for environment variables
 │
 ├── frontend/                      # Frontend React application (using JSX)
 │   ├── public/                    # Static files (e.g., index.html)
